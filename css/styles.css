@@ -84,7 +84,7 @@ body {
 /* footer */
 
 
-.address-mail-partfolio {
+.footer__address-mail-partfolio {
     font-size: 14px;
     line-height: 1.7;
     color: var(--addres-number-color);
@@ -105,7 +105,7 @@ body {
 
 
 
-.address-num-partfolio {
+.footer__address-num-partfolio {
     font-size: 14px;
     line-height: 1.7;
     color: var(--addres-number-color);
@@ -1167,6 +1167,9 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
     display: none;
 }
 
+.card__background {
+    display: none;
+}
 
 
 /* Icon html */
@@ -1175,7 +1178,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
     list-style: none;
 }
 
-.icon__text {
+.footer__text {
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -1189,13 +1192,13 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 
 
 
-.icon__content1 {
+.footer__content1 {
     list-style: none;
     padding-left: 0;
 }
 
 
-.icon__content2 {
+.footer__content2 {
     display: flex;
     list-style: none;
     padding-left: 0;
@@ -1209,7 +1212,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 
 
 
-.icon__button {
+.footer__button {
     width: 44px;
     height: 44px;
     border: none;
@@ -1221,39 +1224,39 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon__button:hover {
+.footer__button:hover {
     background-color: var(--hover-focus-color);
 }
 
 
 
-.icon__item {
+.footer__item {
     cursor: pointer;
 }
 
 
 
-.icon__wapper1 {
+.footer__wapper1 {
     width: 20px;
     height: 20px;
     fill: var(--primary-backgraund-color);
 }
 
-.icon__wapper2 {
-    width: 20px;
-    height: 20px;
-    fill: var(--primary-backgraund-color);
-}
-
-
-.icon__wapper3 {
+.footer__wapper2 {
     width: 20px;
     height: 20px;
     fill: var(--primary-backgraund-color);
 }
 
 
-.icon__wapper4 {
+.footer__wapper3 {
+    width: 20px;
+    height: 20px;
+    fill: var(--primary-backgraund-color);
+}
+
+
+.footer__wapper4 {
     width: 20px;
     height: 20px;
     fill: var(--primary-backgraund-color);
@@ -1345,9 +1348,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
     background-color: var(--hover-focus-color);
 }
 
-.icon__main:hover .icon-company1 {
-    
-}
+
 
 .team__icon-wripper:hover .team__icon-discraib {
     fill: currentColor;
@@ -1368,7 +1369,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 }
 
 
-.icon__button li:hover,  .icon__button li:focus{
+.footer__button li:hover,  .footer__button li:focus{
     background-color: var(--hover-focus-color);
 }
 
