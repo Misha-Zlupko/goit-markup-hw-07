@@ -1,11 +1,11 @@
-.footer-backgraund-color {
+.footer {
     background-color: $footer-backgraund-color;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
 
-.footer-backgraund-color .container {
+.footer .container {
     display: flex;
     align-items: baseline;
     gap: 70px;

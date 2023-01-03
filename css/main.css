@@ -580,13 +580,13 @@ body {
   color: #757575;
 }
 
-.footer-backgraund-color {
+.footer {
   background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer-backgraund-color .container {
+.footer .container {
   display: flex;
   align-items: baseline;
   gap: 70px;
@@ -669,12 +669,12 @@ body {
   margin-bottom: 9px;
 }
 
-.footer__content1 {
+.social-networks__content1 {
   list-style: none;
   padding-left: 0;
 }
 
-.footer__text {
+.social-networks__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1428571429;
@@ -684,7 +684,7 @@ body {
   color: white;
 }
 
-.footer__content2 {
+.social-networks__content2 {
   display: flex;
   list-style: none;
   padding-left: 0;
@@ -693,11 +693,11 @@ body {
   gap: 10px;
 }
 
-.footer__item {
+.social-networks__item {
   cursor: pointer;
 }
 
-.footer__button {
+.social-networks__button {
   width: 44px;
   height: 44px;
   border: none;
@@ -709,33 +709,33 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__button:hover {
+.social-networks__button:hover {
   background-color: #2196F3;
 }
 
-.footer__button li:hover, .footer__button li:focus {
+.social-networks__button li:hover, .social-networks__button li:focus {
   background-color: #2196F3;
 }
 
-.footer__wapper1 {
+.social-networks__wapper1 {
   width: 20px;
   height: 20px;
   fill: white;
 }
 
-.footer__wapper2 {
+.social-networks__wapper2 {
   width: 20px;
   height: 20px;
   fill: white;
 }
 
-.footer__wapper3 {
+.social-networks__wapper3 {
   width: 20px;
   height: 20px;
   fill: white;
 }
 
-.footer__wapper4 {
+.social-networks__wapper4 {
   width: 20px;
   height: 20px;
   fill: white;
@@ -868,10 +868,6 @@ body {
 .header__button-contact a:hover, .header__button-contact a:focus {
   color: #2196F3;
   fill: #2196F3;
-}
-
-.header-lain {
-  border-bottom: 1px solid #ECECEC;
 }
 
 .header {
@@ -1007,7 +1003,7 @@ body {
   margin-bottom: 30px;
 }
 
-.section-business {
+.business {
   padding-bottom: 200px;
   text-align: center;
   padding-top: 200px;
@@ -1042,7 +1038,7 @@ body {
   color: white;
 }
 
-.section-form {
+.form {
   margin-left: auto;
 }
 
@@ -1182,7 +1178,7 @@ body {
   padding-left: 92px;
 }
 
-.section-team {
+.team {
   background-color: #F5F4FA;
 }
 
@@ -1350,7 +1346,7 @@ body {
   margin-bottom: 50px;
 }
 
-.section-work {
+.work {
   margin-bottom: 0;
   padding-top: 47px;
   padding-bottom: 94px;
